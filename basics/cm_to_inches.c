@@ -1,17 +1,21 @@
-// Program to take cm from user and print inches
-// Date : 01-MAY-2025
+// Take centimeters and display inches and feet
 
 #include <stdio.h>
 
 void main()
 {
-    float cm, inches;
+  float cm, inches, feet;
 
+     // input
+     printf("Enter centimeters :");
+     scanf("%f", &cm);
 
-      printf("Enter centimeters :");
-      scanf("%f", &cm);
+     // process
+     inches = cm / 2.54;
+     feet  = cm / 30;
 
-      inches = cm / 2.54;
+     // output
+     printf("Inches = %f\n", inches);
+     printf("Feet   = %f", feet);
 
-      printf("Inches = %f", inches);
 }
