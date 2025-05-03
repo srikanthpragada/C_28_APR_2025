@@ -16,6 +16,8 @@ void main()
      net_price = price - discount;
 
      // output
-     printf("Net Price = %d", net_price);
+     printf("Price        : %6d\n", price);
+     printf("- Discount   : %6d\n", discount);
+     printf("Net Price    : %6d", net_price);
 
 }
