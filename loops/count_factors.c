@@ -1,10 +1,10 @@
-// Display factors of a number
+// Display count of factors of a number
 
 #include <stdio.h>
 
 void main()
 {
-   int i, num;
+   int i, num, count = 0;
 
       printf("Enter a number :");
       scanf("%d",&num);
@@ -13,7 +13,11 @@ void main()
       for(i = 2; i <= num/2 ; i++)
       {
          if(num % i == 0)
-              printf("%d ", i);
+         {
+            count ++;
+         }
       }
+
+      printf("Count = %d", count);
 
 }
