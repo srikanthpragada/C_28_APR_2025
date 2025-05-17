@@ -30,7 +30,7 @@ void main()
             total += a[i][j];
         }
         // come to next line
-        printf("%5d\n", total);
+        printf("%5d %5d\n", total, total / 5);
       }
 
 }
