@@ -1,4 +1,5 @@
-Dennis
-Larry
-Scott
-Richards
+Java
+Python
+C
+JavaScript
+SQL
